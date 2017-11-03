@@ -1,0 +1,11 @@
+Upgrading service if installed...
+User access was set successfully on the service.
+The MozillaMaintenance service path is correct.
+The service description was updated successfully.
+Sending stop request...
+Waiting for service stop...
+Done waiting for service stop, last service state: 1
+The uninstaller version string could not be updated.
+The new service binary was copied in.
+Deleting the old file path on the next reboot: C:\Program Files (x86)\Mozilla Maintenance Service\maintenanceservice_tmp.exe.
+The service was upgraded successfully

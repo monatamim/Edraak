@@ -1,0 +1,17 @@
+body{overflow-x:hidden}
+button,a,input{
+  
+font-family: 'Lateef', cursive;
+}
+.log{background:#f1f4f7;margin-top:14%;padding-top:30px;padding-bottom:30px}
+.input-group input{height:60px;font-size:28px;color:#354458}
+.glyphicon {
+    font-size: 30px;color:#354458
+}
+.lab2 button{height:60px; width:40%;font-size:28px;background:#354458;color:white}
+.lab2 a{font-size:32px;padding-right:12%;list-style:none;color:#354458}
+.lab2 a:hover{text-decoration:none;}
+/* end page login */
+
+/*start page home */
+.home{direction:ltr;}

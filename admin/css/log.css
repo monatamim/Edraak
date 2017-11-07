@@ -4,8 +4,8 @@ button,a,input{
 font-family: 'Lateef', cursive;
 }
 .log{background:#f1f4f7;margin-top:14%;padding-top:30px;padding-bottom:30px}
-.input-group input{height:60px;font-size:28px;color:#354458}
-.glyphicon {
+.icon input{height:60px;font-size:28px;color:#354458}
+.icon .icon1 {
     font-size: 30px;color:#354458
 }
 .lab2 button{height:60px; width:40%;font-size:28px;background:#354458;color:white}
@@ -15,3 +15,5 @@ font-family: 'Lateef', cursive;
 
 /*start page home */
 .home{direction:ltr;}
+
+/*end page home */

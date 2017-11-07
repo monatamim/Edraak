@@ -1,0 +1,42 @@
+		button,a,input{
+  
+font-family: 'Lateef', cursive;
+}
+/*
+        .top1 {max-width:100%;padding-top:2px;height:66px
+}
+.glyphicon-user {
+    font-size: 30px;color:white;padding-left:50px;margin-top:-12px
+}
+.top .top1  a{color:white;font-size:40px;font-weight:bolder;padding-right:50px;
+ letter-spacing: 5px;}
+ .input-group input{height:40px;font-size:20px}
+ .input-group button{height:40px;width:50px}
+ .input-group .glyphicon{color:black}
+img[name="logo"]{height:120px;width:1550px}
+
+input[placeholder="البحث .."] {
+    width: 330px;
+    height:40px;
+    text-align:center;
+    font-size:24px;
+    border-radius:10px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+.top .top1  a:hover{
+	color:#EABA4F;
+	font-size:50px
+}*/
+    body{overflow-x:hidden}
+        button,a,input{font-family: 'Lateef', cursive;}
+    .nbar .top a{color:white;font-size:40px;font-weight:bolder;padding-right:50px;
+ letter-spacing: 5px;}
+.nbar .top  a:hover{
+  color:#EABA4F;
+  font-size:50px
+}
+.nbar li a{font-size:24px;border-radius:5px}
+.nbar .top1 li a{font-size:24px;color:#f1f4f7}
+.nbar .top-icon{background:#354458}
+

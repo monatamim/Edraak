@@ -1,4 +1,4 @@
-		.navbar {background-color:#354458;width:100%;padding-top:2px;height:66px
+/*		.navbar {background-color:#354458;width:100%;padding-top:2px;height:66px
 }
 .glyphicon-user {
     font-size: 30px;color:white;padding-left:50px;margin-top:-12px
@@ -23,3 +23,68 @@ input[placeholder="البحث .."] {
 	color:#EABA4F;
 	font-size:50px
 }
+*/
+.navbar {
+  background-color: #79376B;
+  font-family: 'Lateef', cursive;
+}
+.brandLogo {
+  font-size: 35px;
+  background-color: #FEA878;
+  padding-right:30px;
+  padding-left: 30px;
+  border-radius: 15px;
+  border:1px solid transparent;
+}
+.brandLogo:hover {
+color:#FEA878 !important;
+background-color: white;
+border:1px solid #FEA878;
+}
+.userIcon {
+    font-size: 25px !important;
+    margin-right: 30px;
+    margin-left: 5px;
+    margin-top: 5px;
+    color: white !important;
+}
+
+.navLinks {
+  color: white !important;
+  font-size:24px;
+  border:1px transparent solid;
+}
+.navLinks:hover {
+  color: white !important;
+  background-color: #FEA878;
+  border:1px solid #FEA878;
+
+}
+.searchBox {
+  margin-top: 6px;
+}
+.signOut {
+  background-color: #79376B;
+  color: white;
+  font-size:20px;
+  text-align: right;
+  margin:0;
+}
+.signOut:hover {
+  color: white;
+  background-color: #FEA878;
+}
+@media screen and  (min-width: 990px) {
+.navbar {
+  height: 54px;
+}
+}
+@media screen and  (max-width: 990px) {
+.nav-item {
+text-align: right;
+margin-top: 10px;
+}
+.userIcon {
+  margin:5px 0 0 0;
+}
+  }

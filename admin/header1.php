@@ -1,16 +1,92 @@
 <!DOCTYPE html>
-<html dir="rtl" lang="ar">
-<head>
-	<meta charset="utf-8">
-       <link rel="stylesheet" type="text/css" href="css/header1.css">
- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
- <link href="https://fonts.googleapis.com/css?family=Jomhuria|Katibeh|Lateef" rel="stylesheet"> 
 
-	<title></title>
+<html dir="rtl" lang="ar">
+
+<head>
+
+	<meta charset="utf-8">
+
+  <title></title>
+
+  <!--<link rel="stylesheet" type="text/css" href="css/header1.css">-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Jomhuria|Katibeh|Lateef" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	
 	<style type="text/css">
-  
+
+.navbar {
+  background-color: #79376B;
+  font-family: 'Lateef', cursive;
+}
+.brandLogo {
+  font-size: 35px;
+  background-color: #FEA878;
+  padding-right:30px;
+  padding-left: 30px;
+  border-radius: 15px;
+  border:1px solid transparent;
+}
+.brandLogo:hover {
+color:#FEA878 !important;
+background-color: white;
+border:1px solid #FEA878;
+}
+.userIcon {
+    font-size: 25px !important;
+    margin-right: 30px;
+    margin-left: 5px;
+    margin-top: 5px;
+    color: white !important;
+}
+
+.navLinks {
+  color: white !important;
+  font-size:24px;
+  border:1px transparent solid;
+}
+.navLinks:hover {
+  color: white !important;
+  background-color: #FEA878;
+  border:1px solid #FEA878;
+
+}
+.searchBox {
+  margin-top: 4px;
+  font-size:18px;
+  color:#79376B;
+  font-weight: bold;
+}
+.signOut {
+  background-color: #79376B;
+  color: white;
+  font-size:20px;
+  text-align: right;
+  margin:0;
+}
+.signOut:hover {
+  color: white;
+  background-color: #FEA878;
+}
+@media screen and  (min-width: 992px) {
+.navbar {
+  height: 54px;
+}
+}
+@media screen and  (max-width: 990px) {
+.nav-item {
+text-align: right;
+margin-top: 10px;
+}
+.userIcon {
+  margin:5px 0 0 0;
+}
+  }
+  /*
  @media (max-width:767px){ .navbar .navbar-header  a{float:right !important} 
  .glyphicon-user {display:inline;}
  input[placeholder="البحث .."] {
@@ -33,7 +109,7 @@
 .nav-top .top1 li a:hover{font-weight:bold;color:black;border-bottom:10px solid #EABA4F}
 input[placeholder="البحث .."] {
 }
-
+*/
 	</style>
 </head>
 
@@ -42,7 +118,7 @@ input[placeholder="البحث .."] {
 <body>
   <!-- start logo-->
 
-<img  src="images/banner.png" style = "max-width:100%;" name="logo">
+<img class = "col-lg-12" src="images/banner.png" style = "max-width:100%;height: 140px;" name="logo">
 
 <!--end logo-->
 
@@ -83,6 +159,8 @@ input[placeholder="البحث .."] {
 
 </nav>
 </div>-->
+
+<!--
 <section class="nav-top">
 <nav class="navbar">
   <div class="container-fluid ">
@@ -129,4 +207,67 @@ input[placeholder="البحث .."] {
 </div>
 </nav>
 </section>
+-->
+
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+
+  <a class="navbar-brand brandLogo" href="#">إدراك</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse " id="collapsibleNavbar">
+
+
+    <ul class="navbar-nav ">
+
+      <li class="nav-item ">
+        <a class="nav-link navLinks" href="#">التسجيل</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link navLinks" href="#">الجداول</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link navLinks" href="#">جداول الإختبارات النهائية</a>
+      </li>   
+
+      <li class="nav-item">
+        <a class="nav-link navLinks" href="#">الدرجات</a>
+      </li> 
+
+      <li class="nav-item">
+        <a class="nav-link navLinks" href="#">الغياب</a>
+      </li>  
+
+    </ul>
+
+
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+
+      <input class="form-control searchBox " type="text" size="25" placeholder="البحث ...">
+     
+
+  </li>
+ 
+  <!-- Dropdown -->
+
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        <span class="fa fa-user userIcon"></span>
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item signOut" href="#">تسجيل الخروج</a>
+      </div>
+    </li>
+
+  </ul>
+  </div>  
+
+</nav>
+
 </body>
